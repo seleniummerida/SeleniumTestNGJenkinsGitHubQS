@@ -22,7 +22,7 @@ public class RegisterTest {
 	@Test
 	public void registerPage() throws InterruptedException {
 		registerPage.registerUser();
-		assertEquals("Note: Your user name is merida2020.", registerPage.registeredMessage());
+		assertEquals("Note: Your user name is merida2021.", registerPage.registeredMessage());
 	}
 
 	@AfterMethod
