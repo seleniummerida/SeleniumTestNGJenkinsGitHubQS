@@ -27,7 +27,7 @@ public class RegisterTest {
 
 	@AfterMethod
 	public void afterMethod() {
-		driver.quit();
+		driver.close();
 	}
 
 }
